@@ -66,12 +66,18 @@
 		display: grid;
 		grid-auto-columns: minmax(0, 1fr);
 		grid-auto-flow: column;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	.group {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	.left-group {
